@@ -1,0 +1,23 @@
+
+
+{
+  "name": "Kanha Crypto Wallet",
+  "version": "1.0.0",
+  "description": "India Ka Apna Crypto Wallet",
+  "manifest_version": 3,
+  
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open up your wallet"
+  },
+
+  "icons":{
+    "16": "./icon/crypto-wallet.png",
+    "32": "./icon/crypto-wallet.png",
+    "48": "./icon/crypto-wallet.png",
+    "128": "./icon/crypto-wallet.png"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

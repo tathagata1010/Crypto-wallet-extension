@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  width: 360px;
+  height: 570px;;
+  margin-top: 3px;
+  margin-left: 3px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #282828;
+  border-radius: 20px;
+  color: rgb(213, 230, 247);
+}
+
+.frontPageLogo {
+  width: 80%;
+  height: 25%;
+}
+
+.frontPageButton {
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.frontPageBottom {
+  align-items: flex-end;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+
+.frontPageBottom:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  /* color: rgb(46, 46, 46); */
+}
+
+.h4 {
+  /* color: rgb(46, 46, 46); */
+  padding-bottom: 50px;
+}
+
+a:visited {
+  color: blue;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  border-radius: 8px;
+  background-color: #282828;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.custom-select .ant-select-selector {
+  /* background-color: #404040 !important; */
+  border-radius: 20px; 
+  background-color: #fff !important;
+  /* background-color: #333 !important; */
+}
+
+
+.headerLogo {
+  height: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.dropdown {
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 38%;
+}
+
+.content {
+  text-align: center;
+  width: 350px;
+  height: 520px;
+  overflow-y: auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mnemonic {
+  color: #e9a14f;
+  background: #f0d8be;
+  border: 1px solid #f1e4bb;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: justify;
+  width: 310px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.seedPhraseContainer {
+  width: 310px;
+  min-height: 160px;
+  padding: 5px;
+  margin-top: 30px;
+  color: #b8b8b8;
+  background-color: #333;
+  border: 1px solid #666;
+}
+
+.seedPhraseContainer::placeholder {
+  color: #b8b8b8;
+}
+
+.walletName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.logoutButton {
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  border-radius: 100px;
+}
+
+.logoutButton:hover {
+  background-color: rgba(0, 0, 0, 0.036);
+  cursor: pointer;
+}
+
+.ant-empty-normal .ant-empty-description {
+  color: rgb(213, 230, 247);
+}
+
+.walletView {
+  width: 350px;
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+  color: rgb(213, 230, 247);
+}
+:where(.css-dev-only-do-not-override-1xusghl) .ant-tabs .ant-tabs-nav .ant-tabs-nav-wrap {
+background-color: red !important; /* Change to your desired background color */
+}
+.sendRow {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  color: #fff;
+}
+
+.nftImage {
+  margin-bottom: 10px;
+  height: 240px;
+  width: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+}
